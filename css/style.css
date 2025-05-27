@@ -165,6 +165,10 @@ img {
   line-height: 15px;
   color: #333333;
 }
+.hotel-grid {
+  display: flex;
+  justify-content: space-between;
+}
 
 .stars {
   flex-basis: 100%;
@@ -230,6 +234,109 @@ img {
 .slider-button--prev {
   left: 18px;
   background-image: url(../img/arrow-prev.svg);
+}
+
+.booking {
+  width: 350px;
+  min-height: 210px;
+  padding: 28px;
+  background-color: #0a223d;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.booking-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.booking-info-price {
+  display: flex;
+  flex-direction: column;
+}
+.booking-info-price__price {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.booking-info-price__dollar {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+}
+.booking-info-price__per-room {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.booking-info__per-room {
+  margin-top: 4px;
+}
+.booking-info__per-room-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.booking-info__per-room-description {
+  margin-left: 9px;
+}
+.booking-info-call {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.booking-info-call__text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking-info-call__number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+.booking-info-call__num {
+  margin-left: 8px;
+}
+.booking-info-call__icon {
+  height: 14px;
+  width: 14px;
+}
+.booking__button {
+  width: 100%;
+  min-block-size: 45px;
+  background-color: #EC1F46;
+  border: none;
+  color: #FFFFFF;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 19px;
+}
+.booking-map {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.map {
+  width: 347px;
+  height: 213px;
+  border-radius: 8px;
+  border: 1px solid;
 }
 
 @media (max-width: 1200px) {
