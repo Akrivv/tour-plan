@@ -93,6 +93,7 @@ img {
   font-size: 12px;
   color: #333333;
   padding-left: 23px;
+  outline: none;
 }
 .search__button {
   position: absolute;
