@@ -128,22 +128,46 @@
               <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide">
-                  <img src="/img/slide-1.jpg" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/slide-1.jpg"
+                    alt="Slide"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/img/Slide-2.webp" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/Slide-2.webp"
+                    alt="Slide"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/img/Slide-3.jpg" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/Slide-3.jpg"
+                    alt="Slide"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/img/Slide-4.jpg" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/Slide-4.jpg"
+                    alt="Slide"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/img/Slide-5.webp" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/Slide-5.webp"
+                    alt="Slide"
+                  />
                 </div>
                 <div class="swiper-slide">
-                  <img src="/img/Slide-6.jpg" alt="Slide" />
+                  <img
+                    class="swiper-slide__image"
+                    src="/img/Slide-6.jpg"
+                    alt="Slide"
+                  />
                 </div>
               </div>
               <!-- If we need navigation buttons -->
@@ -198,12 +222,35 @@
               </div>
               <button class="button booking__button">View Other Options</button>
             </div>
-            <div class="map"></div>
+            <div id="map" class="map">
+              <!-- Карта Яндекс <iframe
+                class="map"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A4963c705f8905f56e5a74f27a3fb34c6ebad87362b0be8bfb9fc169bcd6e3787&amp;source=constructor"
+                width="500"
+                height="400"
+                frameborder="0"
+              ></iframe> -->
+              <!-- Карта Google <iframe
+                class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75199.52061945852!2d98.28461048093224!3d7.875392480355552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30503b7bfcd9f903%3A0xf7065fac1e3d7c48!2sDoubleTree%20by%20Hilton%20Phuket%20Banthai%20Resort!5e0!3m2!1sru!2sru!4v1748414186483!5m2!1sru!2sru"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe> -->
+            </div>
           </div>
         </div>
       </div>
     </section>
     <script src="/js/swiper-bundle.min.js"></script>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=e5f6a642-625a-41d2-8403-99cb396ab58b
+&lang=ru_RU"
+      type="text/javascript"
+    ></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
