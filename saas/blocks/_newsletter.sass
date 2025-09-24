@@ -1,0 +1,71 @@
+.newsletter
+    position: relative
+    padding: 98px 0 87px 0
+    background-image: url(../img/newsletter-bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        background-color: rgba($bg-dark, 0.8)
+        width: 100%
+        height: 100%
+    &-wrapper
+        position: relative
+        display: flex
+        max-width: 731px
+        align-items: center
+        margin: auto
+        justify-content: space-between
+    &-title
+        font-weight: 300
+        font-size: 24px
+        font-style: normal
+        line-height: 30px
+        color: $text-light
+        margin: 0
+        display: flex
+        flex-direction: column
+        &__strong
+            font-weight: 600
+            font-size: 36px
+            line-height: 45px
+            text-transform: uppercase
+    &__subscribe
+        margin-left: 138px
+.subscribe
+    display: flex
+    position: relative
+    overflow: hidden
+    border-radius: 4px
+    height: 55px
+    width: 350px
+    &__input
+        position: absolute
+        width: 100%
+        height: 100%
+        padding-left: 33px
+        padding-right: 75px
+        border: none
+        outline: none
+        font-weight: 300
+        font-style: normal
+        font-size: 14px
+        line-height: 18px
+    &__button
+        position: absolute
+        right: 0
+        top: 0
+        height: 100%
+        min-width: 65px
+        border: none
+        background-color: $button-color
+        cursor: pointer
+        color: $text-light
+        font-weight: 700
+        font-size: 12px
